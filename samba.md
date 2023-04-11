@@ -33,3 +33,7 @@
 
 ###コピー先を指定する
 ~~~SITE CPTO /var/tmp/id_rsa~~~
+
+###コピーしたら自分のマシンにマウントする
+~~~mkdir /mnt/kenobiNFS~~~
+~~~mount $IP:/var /mnt/kenobiNFS~~~
