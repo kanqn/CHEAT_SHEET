@@ -15,3 +15,7 @@ msf > run
 
 ### windowsシェルの起動
 ``` meterpreter> shell ```
+
+### exploitをしてsession 1 created in the backgroundとでる  
+セッションに接続する  
+``` session -i 1 ```
