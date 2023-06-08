@@ -39,7 +39,9 @@ chown , tar , rsyncなどで特定のオプションを使用することで顕�
 shell.shのプログラムは以下  
 ``` chmod 777 /root ```  
 
-
+詳しくは下記の記事を参考に(両方とも同じ記事だけど一応のために魚拓も)  
+https://www.hackingarticles.in/skynet-tryhackme-walkthrough/  
+https://web.archive.org/web/20230608070440/https://www.hackingarticles.in/skynet-tryhackme-walkthrough/  
   
 ### フルパスでないコマンドが入っているSUIDなシェルスクリプトから権限昇格する
 例えば以下のようなコマンドを実行するシェルスクリプト(/usr/bin/menu)があったとする
