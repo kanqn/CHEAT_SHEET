@@ -15,6 +15,7 @@ SSH の機能の内の一つであるポートフォワーディングを使っ�
   
 ### シェル起動  
 ``` python -c 'import pty;pty.spawn("/bin/bash")' ```  
+なお、permission deniedでlinpeasをアップできない場合は、/tmp上でwgetするとささる  
 
 
 ### フルパスでないコマンドが入っているSUIDなシェルスクリプトから権限昇格する
